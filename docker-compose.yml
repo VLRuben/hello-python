@@ -1,0 +1,7 @@
+version : '3'
+services:
+  pythonRuben:
+    build: .
+    image: pythonruben:latest   
+    ports:
+      - '8000:8000'
